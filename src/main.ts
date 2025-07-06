@@ -1,6 +1,6 @@
-import { Product } from "./product";
-import { User } from "./user";
-import { processPurchase } from "./purchase";
+import { Product } from "./product.js";
+import { User } from "./user.js";
+import { processPurchase } from "./purchase.js";
 
 // 商品データ作成
 const product1 = new Product(101, "ノートパソコン", 150000, 2);

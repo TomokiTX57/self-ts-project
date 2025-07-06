@@ -12,3 +12,5 @@ export function processPurchase(user: User, product: Product): void {
     console.log(`購入失敗: ${product.name} は在庫切れです。`);
   }
 }
+
+

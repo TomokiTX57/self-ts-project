@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.User = void 0;
-class User {
+export class User {
     id;
     name;
     email;
@@ -14,4 +11,3 @@ class User {
         console.log(`ユーザーID: ${this.id}, 名前: ${this.name}, メール: ${this.email}`);
     }
 }
-exports.User = User;
